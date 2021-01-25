@@ -1,0 +1,25 @@
+{
+  "name": "twilio-handson-voice-jp",
+  "version": "1.0.0",
+  "description": "Twilio Programmable Voiceハンズオンです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neri78/Twilio-HandsOn-Voice-JP.git"
+  },
+  "author": "neri78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neri78/Twilio-HandsOn-Voice-JP/issues"
+  },
+  "homepage": "https://github.com/neri78/Twilio-HandsOn-Voice-JP#readme",
+  "devDependencies": {
+    "textlint": "^11.7.7",
+    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
