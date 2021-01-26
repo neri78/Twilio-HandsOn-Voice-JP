@@ -2,7 +2,15 @@
 
 この手順では先ほど作成したTwiML AppとWebアプリケーションを接続します。
 
-## 2-1: Webアプリケーションを起動し、ローカルWebアプリケーションをトンネリングさせる。
+## 2-1: twilio-clientパッケージをインストールする。
+
+次のコマンドを実行し、クライアント用ライブラリをインストールします。
+
+```zsh
+npm i twilio-client
+```
+
+## 2-2: Webアプリケーションを起動し、ローカルWebアプリケーションをトンネリングさせる。
 
 次のコマンドを実行し、Webアプリケーションを実行します。本来であれば`http://localhost:3000`で起動しますが、このWebアプリケーションでは[npm - ngrok](https://www.npmjs.com/package/ngrok)を用いて外部に公開できるように設定しています。
 
@@ -20,7 +28,7 @@ https://xxxxxxxxx.ngrok.io
 
 ここで表示されている`https://xxxxxxxxx.ngrok.io`が外部に公開されたURLです。
 
-## 2-2: TwiML AppにWebアプリケーションのURLを設定
+## 2-3: TwiML AppにWebアプリケーションのURLを設定
 
 先ほどのTwiML Appをコンソールで開き、`REQUEST URL`に公開されたURLならびに`/Call`を加えて設定します。
 
@@ -30,7 +38,7 @@ https://xxxxxxxxx.ngrok.io
 
 `Save`ボタンを押し、変更を反映させます。
 
-## 2-3: ブラウザーフォンを体験
+## 2-4: ブラウザーフォンを体験
 
 公開されているURL:`https://xxxxxxxxx.ngrok.io`をブラウザーで開くと次のような画面が表示されます。
 
