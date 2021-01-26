@@ -29,7 +29,7 @@ TwiMLを次のように設定します。正しく定義できていればエデ
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Say language="ja-JP">お電話ありがとうございます。</Say>
-</Response>```
+</Response>
 ```
 
 ![Edit TwiML Bin](../assets/02-Edit-TwiML-Bin.png)
