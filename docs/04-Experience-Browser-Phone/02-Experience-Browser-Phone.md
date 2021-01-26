@@ -36,7 +36,7 @@ https://xxxxxxxxx.ngrok.io
 
 ![Browser Phone - init](../assets/04-Browser-Phone-Init.png)
 
-初期化ボタンをクリックすると裏側ではClient Cabailityトークンの生成、取得が行われ、さらに`Twilio.Device`が初期化されます。
+初期化ボタンをクリックすると裏側では`Twilio.Device`が初期化されます。
 
 初期化が終了すると`発信`ボタンが有効になります。
 `発信先:`ボックスに認証された電話番号を`E.164フォーマット`で入力し、発信ボタンをクリックするとブラウザー、Twilioを介して手元の電話への発信、会話が可能となります。
