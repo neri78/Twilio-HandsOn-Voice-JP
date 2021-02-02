@@ -20,6 +20,24 @@ TwiML Appを利用すると受発信をカスタムアプリケーションで�
 
 ここで作成したTwiML Appを用いてブラウザーフォンを体験します。
 
+## 1-2: APIキー、APIシークレットを作成
+
+次に[コンソール - Dashboard](https://jp.twilio.com/console/project/settings)の`設定`からAPIキーを作成します。
+
+[APIキー](https://jp.twilio.com/console/project/api-keys)を選択し、`新しいキーを作成する`ボタンをクリックします。
+
+![コンソール - APIキーの作成](../assets/04-Console-Api-Key.png)
+
+`わかりやすい名前`の欄に任意の名前を入力し、キータイプは`Standard`とし、`APIキーを作成する`ボタンをクリックします。
+
+![APIキー作成画面](../assets/04-Console-Api-Key-Create.png)
+
+
+
+作成された画面に表示されている、`SID`と、`SECRET`を控え、`.env`ファイルの`TWILIO_API_KEY`、`TWILIO_API_SECRET`にそれぞれ転記します。
+
+![APIキー作成後の画面](../assets/04-Console-Api-Key-Create-Secret.png)
+
 ## 次の手順
 
 [手順2: TwiML Appを使用しブラウザーフォンを設定](02-Experience-Browser-Phone.md)
