@@ -12,9 +12,7 @@ Twilio FunctionsはWebhook（Webアプリケーション）を利用する方法
 
 ## 手順2-1: サービスを作成
 
-[Functions](https://jp.twilio.com/console/functions)を開くか、サイドナビゲーションからクリックしFunctionsコンソールを開きます。
-
-![Functionsコンソール](../assets/02-Functions-Console.png)
+[コンソール - Functions and Assets](https://jp.twilio.com/console/functions)リンクを開くか、先ほどと同様に製品一覧からFunctions and Assetsコンソールを開きます。
 
 Overview画面から`Create Service`ボタンをクリックし新しいサービスを作成します。
 

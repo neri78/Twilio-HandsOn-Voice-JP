@@ -4,10 +4,10 @@
 
 ## 2-1: twilio-clientパッケージをインストールする。
 
-次のコマンドを実行し、クライアント用ライブラリをインストールします。
+次のコマンドを実行し、Twilio Programmable Voiceクライアント用ライブラリをインストールします。
 
 ```zsh
-npm i twilio-client
+npm i @twilio/voice-sdk
 ```
 
 ## 2-2: Webアプリケーションを起動し、ローカルWebアプリケーションをトンネリングさせる。
@@ -24,6 +24,7 @@ npm start
 Listening port 3000
 https://xxxxxxxxx.ngrok.io
 ```
+
 セキュリティ上、またはファイアウォールの設定でうまく動作しない場合は、別のネットワーク、別のPC等で試してください。
 
 ここで表示されている`https://xxxxxxxxx.ngrok.io`が外部に公開されたURLです。
@@ -40,7 +41,7 @@ https://xxxxxxxxx.ngrok.io
 
 ## 2-4: ブラウザーフォンを体験
 
-公開されているURL:`https://xxxxxxxxx.ngrok.io`をブラウザーで開くと次のような画面が表示されます。
+公開されているURL:`https://xxxxxxxxx.ngrok.io`をブラウザーで開くと次のような画面が表示されます。ブラウザーによっては危険なサイトへの接続であることを示す警告が表示されますが、この時点では自身のローカル環境にアクセスしています。
 
 ![Browser Phone - init](../assets/04-Browser-Phone-Init.png)
 

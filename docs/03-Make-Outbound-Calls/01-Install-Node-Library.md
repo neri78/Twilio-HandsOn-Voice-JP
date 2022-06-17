@@ -37,7 +37,7 @@ MY_PHONE_NUMBER=
 TWIML_APP_SID=
 ```
 
-次に[コンソール](https://jp.twilio.com/console)を開きます。この画面のProject Infoに表示されている`アカウントSID`、`AUTHTOKEN`の値をそれぞれ、`TWILIO_ACCOUNT_SID`、`TWILIO_AUTH_TOKEN`に転記します。これらは非常に重要な情報であるため、外部への漏洩や誤って公開しないように十分ご注意ください。
+次に[コンソール](https://jp.twilio.com/console)を開きます。この画面のProject Infoに表示されている`Account SID`、`Auth Token`の値をそれぞれ、`TWILIO_ACCOUNT_SID`、`TWILIO_AUTH_TOKEN`に転記します。これらは非常に重要な情報であるため、外部への漏洩や誤って公開しないように十分ご注意ください。
 
 ![Twilioコンソール](../assets/03-Twilio-Console.png)
 

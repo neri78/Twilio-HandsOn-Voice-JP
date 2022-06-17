@@ -6,11 +6,9 @@ Twilioは[TwiML](https://jp.twilio.com/docs/voice/twiml)と呼ばれる独自の
 
 ## 1-1: TwiML Binの作成
 
-[コンソール](https://jp.twilio.com/console/twiml-bins)または、下記のようにサイドバーから`TwiML Bins`をクリックし画面を開きます。
+[コンソール - TwiML Bins](https://jp.twilio.com/console/twiml-bins)リンク、または画面左側のナビゲーションに表示されている`Explore Products`リンクで表示される製品一覧から`TwiML Bins`をクリックし画面を開きます。
 
-![Console - TwiML Bins](../assets/02-NavBar-TwiML-Bins.png)
-
-続けて何も作成していない場合は`Create new TwiML Bin`ボタンをクリックします。
+続けて`Create new TwiML Bin`ボタンをクリックします。
 
 ![Create TwiML Bin](../assets/02-TwiML-Bins.png)
 
@@ -28,18 +26,13 @@ TwiMLを次のように設定します。正しく定義できていればエデ
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Say language="ja-JP">お電話ありがとうございます。</Say>
+  <Say language="ja-JP"><break time="2s" />お電話ありがとうございます。</Say>
 </Response>
 ```
 
 ![Edit TwiML Bin](../assets/02-Edit-TwiML-Bin.png)
 
 表示が正しいことを確認したのち、`Create`ボタンをクリックし作成します。
-
-
-作成が成功すると新たに`Properties`セクションが画面に追加され、`SID`および`URL`が表示されます。
-
-![TwiML - details](../assets/02-TwiML-Bins-Details.png)
 
 
 ## 1-3: 着信時の応答として設定
